@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Ysabeau&display=swap');
+
+html {
+    font-size: 1rem;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    color: sandybrown;
+    text-transform: uppercase;
+    font-size: 1.4rem; /* 14px + 50% = 21px */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#logo {
+    display: block;
+    border: 10px solid rgb(49, 43, 162);
+    border-radius: 50%;
+    width: 10%;
+    height: auto;
+    position: static;
+    top: 50px;
+    left: 150px;
+}
+input {
+    padding: 10px;
+    display: inline-block;
+    font-size: 1.6em;
+}
+input::placeholder {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.6em;
+}
+input:focus {
+    border: 4px solid red;
+}
+
+code {
+    background-color: #d3d3d3;
+    border-left: 4px solid black;
+    padding: 10px;
+    display: block;
+    color: #333;
+}
+
+main {
+}
+
+main section#gallery {
+    background-color: red;
+}
+
+#spiegazione p:last-of-type {
+    background-color: yellow;
+}
+
+header {
+    background-color: aquamarine;
+}
+nav ul li {
+    display: inline-block;
+    background-color: coral;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+nav ul li a {
+    display: block;
+    opacity: 0.3;
+    border-radius: 20px;
+}
+nav ul li a:visited {
+    background-color: black;
+    color: white;
+}
+nav ul li a:hover {
+    opacity: 1;
+    background-color: #d3d3d3;
+    color: coral;
+}
+main {
+    width: 100%;
+    background-color: gainsboro;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+h1 {
+    font-family: 'Ysabeau', 'Trebuchet MS', Arial, sans-serif;
+    display: inline-block;
+}
+h1 span {
+    color: #c10014;
+    font-weight: bold;
+}
+
+#copertina {
+    border: 5px solid black;
+    background-image: url(https://travel.thewom.it/content/uploads/sites/4/2022/09/montagna-a-settembre.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 300px;
+    position: relative;
+}
+#copertina h2 {
+    position: absolute;
+    top: 30px;
+    right: 45px;
+}
+#copertina h2 span {
+    background-color: rgba(200, 237, 95, 0.5);
+    color: black;
+    text-shadow: 0 0 10px #fff;
+}
+
+
+footer {
+    font-size: 0.7rem;
+}
+footer address {
+    font-size: 0.9em;
+    font-weight: bold;
+}
